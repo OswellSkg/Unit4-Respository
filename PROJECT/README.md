@@ -11,37 +11,27 @@ The school is isolated deep inside a forest, and I struggle to keep up with the 
 as it is diffcult to access any clothing stores and also financially restricted to buy all the clothings I need for every season. 
 However, some students in the school has the luxury to buy any clothes they want, and some throws them away when it is unnecessary anymore
 to clear up their wardrobe, ultimately contributing to fast fashion as well as climate warming by creating waste. 
-Students have attempted to create a small section on campus where unnecessary clothings could be stored for other students to use, but it becomes very dirty 
-and messy as there are too much clothings being dumped here, and are not being correctly categorized, hence making it too hard for students to find any 
-clothings they may want or need.
+Students have attempted to create a small section on campus where unnecessary clothings could be stored for other students to use, but it becomes very dirty and messy as there are too much clothings being dumped here, and are not being correctly categorized, hence making it too hard for students to find any clothings they may want or need, or even to keep track of the general flow of collection and distribution of clothes in the community. 
 
 
 ## Success Criteria
-1. The SNS will allow users to upload details of clothings in a post(Top or Bottom?, Long sleeve/pants or Short sleeve/pants?, For what season?:Spring,Summer,Autumn,Winter)
-2. The SNS will allow users to view posts according to its category, such as season or short sleeve or long sleeve. 
-3. The SNS will allow users to have their own profile page so they can share their contact information and connect with anyone who wants their clothes.
-4. The SNS will allow users to take down posts that have already been claimed.
-5. The SNS will allow users to put a number of clothes that they've shared with others. (Like an accomplishment -> Shows how much )
-6. The SNS will allow users to 
+1. The SNS allows users to upload, edit, and delete new posts with details of clothings.
+2. The SNS allows users to view posts according to its category, such as season or short sleeve or long sleeve. 
+3. The SNS allows users to have their own profile page so they can share their contact information and connect with anyone who wants their clothes.
+4. The SNS allows users to mark posts of clothings that have been claimed as done and the program will automatically delete the post.
+5. The SNS allows users to put a number of clothes that they've shared with others. (Like an accomplishment -> Shows how much )
+6. The SNS displays statistics on the number of clothes posted as well as number of clothes given away.
 
 
 ## Design Statement 
 
 I am in need of a more comprehensive system of second-hand clothings exchange to allow students to find their wants and needs easily, without having to
-go through countless piles of clothings. I will create a social networking service that provides a platform for students who can share clothes they do not need anymore
-to students who may be willing to keep using them. Not only will this reduce the waste created by fast fashion, but also contributes to solve the problem
+go through countless piles of clothings. I will create a social networking service that provides a platform for students who can share clothes they do not need anymore to students who may be willing to keep using them. Not only will this reduce the waste created by fast fashion, but also contributes to solve the problem
 of both students who cannot afford enough clothings, and students who buy too much clothings and want to empty their wardrobes for the coming season. 
 
 ## Rationale for Proposed Solution
-The primary focus of the application is to provide a centralized platform for Kanji learners such as my client, with the use of Python as the programming language, KivyMD to create the GUI (Graphic User Interface) and SQLite for database management system. By doing so, the application will solve the problem of inefficiency by providing a cautiously-tailored solution to help students manage their Kanji learning more effectively. 
 
-In the light of the client's Kanji acquisition issues, I will use a GUI rather than a text-based processor. This is to fulfill the client's satisfaction by allowing the application to become further user-friendly with a visually appealing interface and an organized and easy-to-understand application layout, enhancing the user's experience with the application and furthering their Kanji learnings. Furthermore, as the client's learning is heavily based on visual recognitions of the Kanji, a GUI allows me to maximize the potential of the application by graphical enhancement for the client. 
 
-The selection of the Python programming language for developing the proposed application was based on its widespread use and popularity in the tech industry for its simplicity, readability, and flexibility. According to the latest TIOBE Programming Community Index, Python ranks the most popular programming language as of March 2023 [4]. Python's extensive library support granted by its substantial community of developers, makes it easier to access pre-built code modules with basic syntax as well as its simple syntax rule[3], facilitating faster development of the desired application. Furthermore, from a developer's perspective, the language is highly applicable for the development of applications as it puts heavy emphasis on the adoption of TDD (Test Driven Development)[3], allowing developers to ensure the quality of the application through a series of test drives and assess the program code accordingly. Ultimately, Python is most suitable for the development of this application as it allows swift development(with Python code being shorter than other languages such as Java by 3-5 times, and C++ by 5-10 times[5]), and its extensive library support that eases the development of complex software applications.
-
-For the application interface, the KivyMD library was chosen due to its ease of use and adaptability. Kivy is a free, open-source, multi-platform application development framework that runs on various platforms like Android, iOS, Windows, Linux[7] and it is one of, if not, the only GUI framework that is written in pure Python [6]. It provides pre-built user-interface elements and styles that can be effortlessly customized and integrated into Kivy-based applications [7], which saves time and effort required to develop the interface from scratch. Although there are alternatives to KivyMD, such as Flutter that have a larger community for support and are better at developing native applications, KivyMD was selected due to its easy learning curve, flexibility, and compatibility with the pure state of Python language[7], as well as the proposed application's requirements.
-
-SQLite was chosen as the database management system for this proposed solution due to its efficiency, reliability, and extensive combatibility. SQLite is a free open-source database[8] that does not require a separate server process and licensing, and allows to implement several databases into a single file[9], making it easy to facilitate work on multiple databases on the same session simultaneously, thus enhancing flexibility[8]. SQLite posess various lightweight features such as its capability of storing all kinds of information safely and quickly, without requiring lengthy procedural routines, as compared to other databases like Oracle[10]. SQLite also provides continuous transaction updates and atomic behaviors, so a program crash or even a power outage won’t leave you with a corrupted database[9]. Its cross-platform compatibility further enhances the client's ability to expand the program to other platforms[8]. SQLite is a cost-friendly, reliable, and easy-to-use database and the best option for the proposed application's database management system.
 
 
 # Criteria B: Design
