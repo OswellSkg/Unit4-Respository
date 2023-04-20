@@ -22,6 +22,7 @@ clothings they may want or need.
 3. The SNS will allow users to have their own profile page so they can share their contact information and connect with anyone who wants their clothes.
 4. The SNS will allow users to take down posts that have already been claimed.
 5. The SNS will allow users to put a number of clothes that they've shared with others. (Like an accomplishment -> Shows how much )
+6. The SNS will allow users to 
 
 
 ## Design Statement 
