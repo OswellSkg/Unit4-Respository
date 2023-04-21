@@ -29,9 +29,13 @@ I am in need of a more comprehensive system of second-hand clothings exchange to
 go through countless piles of clothings. I will create a social networking service that provides a platform for students who can share clothes they do not need anymore to students who may be willing to keep using them. Not only will this reduce the waste created by fast fashion, but also contributes to solve the problem
 of both students who cannot afford enough clothings, and students who buy too much clothings and want to empty their wardrobes for the coming season. 
 
+I will to design and make a comprehensive second-hand clothings exchange system for myself, as I want to reduce the waste of second-hand clothings and also have easier access to clothes, including second-hand ones. The ——– will about ———— and is constructed using the software ———. It will take ———- to make and will be evaluated according to the criteria ———.
+
+
+
 ## Rationale for Proposed Solution
 
-
+Furthermore, the system will also be equipped with a a counting system showing how much people have shared clothings, and hence contributed to abolishing fast fashion culture, as well as a statistics number system that allows users to acknowledge the general overview of the whole flow of waste as well as reuse.
 
 
 # Criteria B: Design
