@@ -24,21 +24,21 @@ Students have attempted to create a small section on campus where unnecessary cl
 
 
 ## Design Statement 
-
-I am in need of a more comprehensive system of second-hand clothings exchange to allow students to find their wants and needs easily, without having to
-go through countless piles of clothings. I will create a social networking service that provides a platform for students who can share clothes they do not need anymore to students who may be willing to keep using them. Not only will this reduce the waste created by fast fashion, but also contributes to solve the problem
-of both students who cannot afford enough clothings, and students who buy too much clothings and want to empty their wardrobes for the coming season. 
-
-I will to design and make a comprehensive second-hand clothings exchange system for myself, as I want to reduce the waste of second-hand clothings and also have easier access to clothes, including second-hand ones. The ——– will about ———— and is constructed using the software ———. It will take ———- to make and will be evaluated according to the criteria ———.
+The website will be a social networking service about sharing used clothes and is constructed using the HTML, CSS, SQLite, Python and Flask on Pycharm for myself who will use it for my school, and students who want to share used clothes that they would otherwise throw away. It will take 4-5 weeks to make and will be evaluated according to the criteria A, B, C, D, E as seen in the [link](https://docs.google.com/spreadsheets/d/1B3HfHEN7qSuDfxGyv4nNJefHmbGMWLu9FOd9l2NEqSw/edit?usp=sharing).
 
 
 
 ## Rationale for Proposed Solution
 
-For the client, I will be using a website created with html, css, python, flask, and sqlite. The client is from an international school, and given that somne students from the school uses school laptop with rigorous validation and administrative process to download an app, website is a more realistic and accesible option for the all of the student body. The use of python is justified as python is a language with a large community of users, therefore, with a huge extent of support compared to other languages such as NodeJS, Ruby, or PHP. Many of these languages are outdated, and will cost more time and money to update the program when necessary, due to the lack of support provided. Python uses two major framework, flask and Django, but I will be using flask as it is known to be best fit for micro-framework and lightweight than its alternative, Django, which is often considered to be best fit for as Django is a full-stack framework for bigger programs. For the database of the program, I decided to use SqLite, as 
+For the client, I will be using a website created with html, css, python, flask, and sqlite. The client is from an international school, and given that somne students from the school uses school laptop with rigorous validation and administrative process to download an app, website is a more realistic and accesible option for the all of the student body. The use of python is justified as python is a language with a large community of users, therefore, with a huge extent of support compared to other languages such as NodeJS, Ruby, or PHP. Many of these languages are outdated, and will cost more time and money to update the program when necessary, due to the lack of support provided. Python uses two major framework, flask and Django, but I will be using flask as it is known to be best fit for micro-framework and lightweight than its alternative, Django, which is a full-stack framework for bigger programs. For the database of the program, I decided to use SqLite, as SQLite allows multiple tables to exist in one table, ultimately shortening the processing time of the data and allowing the useres eaa higher quality of experience.
 
 Furthermore, the system will also be equipped with a a counting system showing how much people have shared clothings, and hence contributed to abolishing fast fashion culture, as well as a statistics number system that allows users to acknowledge the general overview of the whole flow of waste as well as reuse.
 
+https://www.javatpoint.com/advantages-of-python-that-made-it-so-popular-and-its-major-applications
+https://djangostars.com/blog/python-web-development/
+https://directlinedev.com/web-development/why-do-we-write-websites-using-python/#why-you-should-choose-python-for-web-developmen
+https://www.stxnext.com/blog/python-for-web-development/
+https://www.netsolutions.com/insights/flask-vs-django/#:~:text=of%20web%20development.-,What%20is%20Flask%20and%20Django%3F,is%20light%2Dweight%20but%20extensible.
 
 # Criteria B: Design
 
