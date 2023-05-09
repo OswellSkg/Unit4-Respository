@@ -35,6 +35,8 @@ I will to design and make a comprehensive second-hand clothings exchange system 
 
 ## Rationale for Proposed Solution
 
+For the client, I will be using a website created with html, css, python, flask, and sqlite. The client is from an international school, and given that somne students from the school uses school laptop with rigorous validation and administrative process to download an app, website is a more realistic and accesible option for the all of the student body. The use of python is justified as python is a language with a large community of users, therefore, with a huge extent of support compared to other languages such as NodeJS, Ruby, or PHP. Many of these languages are outdated, and will cost more time and money to update the program when necessary, due to the lack of support provided. Python uses two major framework, flask and Django, but I will be using flask as it is known to be best fit for micro-framework and lightweight than its alternative, Django, which is often considered to be best fit for as Django is a full-stack framework for bigger programs. For the database of the program, I decided to use SqLite, as 
+
 Furthermore, the system will also be equipped with a a counting system showing how much people have shared clothings, and hence contributed to abolishing fast fashion culture, as well as a statistics number system that allows users to acknowledge the general overview of the whole flow of waste as well as reuse.
 
 
