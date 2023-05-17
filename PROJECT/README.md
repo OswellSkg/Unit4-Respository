@@ -50,7 +50,7 @@ https://www.netsolutions.com/insights/flask-vs-django/#:~:text=of%20web%20develo
 This system diagram shown above is for the application proposed as the solution. It visually represents the system as well as its components. In general, it serves to clarify the relationships between the components, and making it easier to understand overall how it works. The application will use KanjiApp.py from Python and KanjiApp.kv from KivyMD for the GUI and functions, while we use kanji_app.db from SQLite to store any user inputs. This will all be able to be executed through the PyCharm application, and will be displayed using a screen. 
 
 ## Wireframe Diagram 
-![Wireframe Diagram](https://user-images.githubusercontent.com/112055140/224467201-3422a561-06cd-4b80-951b-5548b7796ad7.jpg)
+![Oswell-1](https://github.com/OswellSkg/Unit4-Respository/assets/112055140/49242b3c-2e0b-4ab5-8a85-eead3eec1d81)
 
 <i>Fig. 2</i> This is the wireframe for the application. 
 
@@ -71,19 +71,19 @@ The users table of the kanji_app.db database of the application will record the 
 The UML diagram shown above provides informations regarding the classes and methods used throughout the development of the app. Parenting classes are MDApp, MDScreen, MDExpansionPanelThreeLine, and finally the MDBoxLayout. Each classes contains methods in each screen necessary for the application to function. Finally, the database_handler contains methods required for the application to connect and modify the kanji_app.db SQLite database. 
 
 ## Flow Diagrams
-![FlowDiagram1](https://user-images.githubusercontent.com/112055140/224905116-a3f14db6-fb27-43f1-b48b-661413f1b01f.jpg)
+![Oswell-2](https://github.com/OswellSkg/Unit4-Respository/assets/112055140/94d45e54-08e9-42ae-981c-a847b4a7fbbb)
 
 <i>Fig. 5</i> This is the flow diagram that details the process of how the try_add method from AddKanjiScreen works. 
 
 This method is used to append the kanji, hiragana, katakana, and meaning inputs from the user into the kanji_database table of the kanji_app.db database. The method first converts the input to local variables, as well as taking the user_id of the user logged in, to make the data exclusive to that specific user. Next, it opens access to the database with the database_handler, and append the local variables with a specially generated query named “add_kanji.” Finally, it runs the query, closes the database, notifies toe user that the Kanji has been added, and empties all the inputs for the next input. And that is the end of the method. 
 
-![FlowDiagram2](https://user-images.githubusercontent.com/112055140/224905145-2c9d069f-a942-49c0-b83a-556d1cba683d.jpg)
+![Oswell-3](https://github.com/OswellSkg/Unit4-Respository/assets/112055140/d2f5b145-ea17-4773-9e52-e721d07a2c74)
 
 <i>Fig. 6</i> This is the flow diagram that details the process of how the update method from DeleteKanjiScreen works. 
 
 This method is used to update a table that lists all the datas from kanji_database table in kanji_app,db database. The method will first take the user_id of the user logged in. It will then open the kanji_app.db database, and SELECT all datas that are specific to the user_id of the user that is logged in. Then, it will append all the results into a local variable “results” and close the database. Following that, it will create a list named “data,” and for every data in the results variable, it will take the kanji, hiragana, katakana variables and convert them into a Japanese font, and add it to a new list variable created earlier, “data.” Then, it will update the table accordingly. This way, all of the datas shown on the table is 1) user exclusive, and 2) converted to a Japanese font, hence preventing any display errors.
 
-![FlowDiagram3](https://user-images.githubusercontent.com/112055140/224905175-9d04bec9-37fe-430b-a9b2-dca62bc911db.jpg)
+![Oswell-4](https://github.com/OswellSkg/Unit4-Respository/assets/112055140/d7cd9e99-44be-47ea-accb-8a0028d542e8)
 
 <i>Fig. 7</i> This is the flow diagram that details the process of how the save method from the DeleteKanjiScreen works.
 
